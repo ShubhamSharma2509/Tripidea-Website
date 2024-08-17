@@ -45,13 +45,26 @@
 }
 @media screen and (max-width: 950px){
     .searchresult{
-        margin: 4rem 2rem;
+        margin: 4rem 1rem 2rem 1rem;
+    }
+    .searchresult h2 {
+        margin: 5rem 0rem -1.5px 0rem;
+        font-size: inherit;
+        font-family: inherit;
     }
     .searchresultcard{
         flex-direction: column;
     }
     .s-card{
-        width: 90%;
-        margin-bottom: 1.5rem;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    .s-image{
+        width: 15.5rem;
+        height: 8rem;
+    }
+    .s-card h4 {
+        font-size: large;
+        font-weight: 600;
     }
 }

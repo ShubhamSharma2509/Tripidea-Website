@@ -41,10 +41,14 @@
 }
 @media screen and (max-width: 850px) {
     .footer{
-        padding: 4rem 2rem;
+        padding: 2rem 1rem;
+    }
+    .top1{
+        width: 90%;
+        padding-right: 3rem;
     }
     .footer i{
-        margin: 1rem 1rem 0 0;
+        margin: 1rem 1rem 5px 5px;
     }
     .bottom div{
         width: 50%;

@@ -38,10 +38,7 @@ export default function Searchmenu() {
             <option value="restorent">Restorent and Cafes</option>
           </select>
           </div>
-          <button className='button' onClick={handleClick}  type='submit' value="Submit" >Submit</button> 
-        <p>
-          Many more Cities and placea are yet to be come soon...
-        </p>        
+          <button className='button' onClick={handleClick}  type='submit' value="Submit" >Submit</button>        
       </div>
     </div>
     </>

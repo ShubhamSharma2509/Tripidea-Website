@@ -1,16 +1,17 @@
 .form-container{
-    margin: 2rem 6rem;
+    margin: 3rem 6rem;
     color: #2a2a2a;
 }
 .form-container form{
     padding-top: 3rem;
     display: flex;
     flex-direction:column;
-    width: 50%;
+    width: 60%;
     margin: auto;
 }
 h3{
     font-family: "fangsong";
+    padding-left: 2rem;
 }
 .form-container input{
     height: 3rem;
@@ -31,7 +32,18 @@ h3{
 }
 @media screen and (max-width: 850px) {
     .form-container{
-        margin: 4rem 2rem;
+        margin: 0rem 2rem;
+    }
+    h3{
+        font-family: "fangsong";
+        font-size: small;
+    }
+    .form-container form{
+        padding-top: 1rem;
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+        margin: 0px 0px 50px 0px;
     }
     .form-container div{
         padding-top: 2rem;

@@ -11,7 +11,7 @@ export default class Navbar extends Component {
     return (
       
         <nav className="NavbarItem">
-        <h1 className="Navbar-logo" >Tripidea <h3 className='fa fa-thumb-tack'>.</h3></h1>
+        <h1 className="Navbar-logo" >Tripidea <h3 className='fa fa-thumb-tack'> </h3></h1>
         <div className='menuicons'onClick={this.handleclick} > 
             <i className={this.state.clicked ? "fas fa-times" :"fas fa-bars"}></i>
         </div>

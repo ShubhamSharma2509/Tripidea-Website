@@ -17,9 +17,6 @@
     margin-top: 5px;
     margin-bottom: 5px;
 }
-.search p{
-    margin-left: 50%;
-}
 .select{
     width: 55%;
     padding: 12px 20px;
@@ -47,4 +44,49 @@
 .button:hover{
     background-color: #35353f;
     color: #fff;
+}
+@media screen and (max-width: 850px){
+    .background{
+        margin-top: 27%;
+        margin-bottom: 10%;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .search{
+        max-width: 1000px;
+        margin: auto;
+        border-radius: 30px;
+        background: #2c4a4a2e;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .search h1{
+        font: message-box;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+    .select{
+        width: 80%;
+        padding: 11px 10px;
+        margin: 20px 0;
+        display: inline;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+    .button{
+        display: grid;
+        background-color: #151516;
+        color: whitesmoke;
+        width:100%;
+        padding-bottom: 35px;
+        text-decoration: none;
+        white-space: nowrap;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+    }
 }

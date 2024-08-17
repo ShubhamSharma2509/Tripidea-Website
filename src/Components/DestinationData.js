@@ -11,8 +11,8 @@ export default class DestinationData extends Component {
                     <p>{this.props.text}</p>
                 </div>
                 <div className="image">
-                    <img src={this.props.image1} alt="img" />
-                    <img src={this.props.image2} alt="img" />
+                    <img src={this.props.image1} className="dimage" alt="img" />
+                    <img src={this.props.image2} className="dimage" alt="img" />
                 </div>
             </div>
       </>

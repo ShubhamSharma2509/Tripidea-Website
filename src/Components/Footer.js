@@ -5,7 +5,7 @@ const Footer=()=>{
     return(
         <div className="footer">
             <div className="top">
-                <div>
+                <div className="top1">
                     <h1>Tripidea</h1>
                     <p>Tripidea is a website developed using react js by Shubham Sharma</p>
                 </div>
@@ -29,13 +29,13 @@ const Footer=()=>{
             <div className="bottom">
                 <div>
                     <h4>Project</h4>
-                    <Link to="/owner">Owner</Link>
+                    <Link to="https://my-portfolio-khaki-seven-42.vercel.app/">Owner</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/version">All Version</Link>
                 </div>
                 <div>
                     <h4>Communication</h4>
-                    <Link to="/">Git Hub</Link>
+                    <Link to="https://github.com/ShubhamSharma2509/Tripidea-Website.git">Git Hub</Link>
                     <Link to="/contact">Contact Us</Link>
                 </div>
                 <div>
