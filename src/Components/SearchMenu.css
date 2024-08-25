@@ -6,7 +6,7 @@
     max-width: 860px;
     margin: auto;
     border-radius: 65px;
-    background: #2c4a4a2e;
+    background: rgb(205, 201, 181);
     padding-top: 65px;
     padding-bottom: 40px;
     padding-left: 50px;
@@ -48,7 +48,7 @@
 }
 @media screen and (max-width: 850px){
     .background{
-        margin-top: 27%;
+        margin-top: 24%;
         margin-bottom: 10%;
         margin-left: 7%;
         margin-right: 7%;
@@ -57,7 +57,7 @@
         max-width: 1000px;
         margin: auto;
         border-radius: 30px;
-        background: #2c4a4a2e;
+        background: rgb(205, 201, 181);
         padding-top: 25px;
         padding-bottom: 20px;
         padding-left: 35px;
@@ -83,12 +83,11 @@
         display: grid;
         background-color: #151516;
         color: whitesmoke;
-        width:60%;
+        width:100%;
         padding-bottom: 35px;
         text-decoration: none;
         white-space: nowrap;
         border-radius: 0.5rem;
         font-size: 1rem;
-        margin-left: 80px;
     }
 }

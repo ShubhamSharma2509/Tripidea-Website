@@ -1,3 +1,4 @@
+
 .searchresult{
     margin: 6.2rem 1.5rem;
     color: #2a2a2a;
@@ -71,5 +72,6 @@
     .s-card h4 {
         font-size: large;
         font-weight: 600;
+        padding-top: 15px;
     }
 }
