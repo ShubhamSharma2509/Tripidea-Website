@@ -2,7 +2,7 @@ import "./Destination.css"
 import DestinationData from "./DestinationData"
 const Destination =()=>{
     return(
-        <div className="destination">
+        <div className="destination" id="destination">
             <h1>Popular Destination</h1>
             <p>Bellow are the some of the populer destination ideas for traveling. The places are having a high positive reviews. The suggestions includes places of natural beauty such as beaches, , national parks, mountains, deserts and forests so you dont have to worey about the planning</p>
             <DestinationData className="first-des"

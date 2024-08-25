@@ -47,8 +47,12 @@
     right: 0;
 }
 @media screen and (max-width: 850px) {
-    .destination{
-        margin: 4rem 2rem;
+    #destination{
+        margin: 2rem 2rem;
+    }
+    .destination h1{
+        font-size: 2rem;
+        padding-bottom: 1.2rem;
     }
     .first-des{
         display: flex;
