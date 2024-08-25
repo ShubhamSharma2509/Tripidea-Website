@@ -17,7 +17,7 @@ h3{
     height: 3rem;
     padding: 0 1rem;
     margin-bottom: 2rem;
-    border-radius: 3rem;
+    border-radius: 1rem;
     border: 1px solid #2a2a2a;
 }
 .form-container textarea{
@@ -29,14 +29,17 @@ h3{
 .form-container button{
     display: inline;
     border-radius: 10px;
+    color: whitesmoke;
+    background-color: #151516;
 }
 @media screen and (max-width: 850px) {
     .form-container{
-        margin: 0rem 2rem;
+        margin: 2.5rem 2rem;
     }
     h3{
         font-family: "fangsong";
-        font-size: small;
+        font-size: unset;
+        padding-left: 0rem;
     }
     .form-container form{
         padding-top: 1rem;
@@ -48,5 +51,11 @@ h3{
     .form-container div{
         padding-top: 2rem;
         width: 90%111;
+    }
+    .form-container button{
+        display: inline;
+        border-radius: 10px;
+        color: whitesmoke;
+        background-color: #151516;
     }
 }

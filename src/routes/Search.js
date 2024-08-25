@@ -6,7 +6,7 @@ import Searchmenu from '../Components/SearchMenu'
 export default function Search() {
   return (
     <>
-    <Navbar/> 
+    <Navbar/>
     <Searchmenu/>
     <Footer/>
     </>
